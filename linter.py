@@ -22,7 +22,7 @@ class CoffeeJshint(Linter):
     selectors = {}
     word_re = None
     defaults = {
-        "--globals:,": "require,module,window,document"
+        "--globals:,": "require,module,window,document,console"
     }
     inline_settings = None
     inline_overrides = ("globals",)
