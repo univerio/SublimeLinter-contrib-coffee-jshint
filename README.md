@@ -1,7 +1,7 @@
 SublimeLinter-contrib-coffee-jshint
 ================================
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [coffee-jshint](https://github.com/univerio/SublimeLinter-contrib-coffee-jshint). It will be used with files that have the “coffeescript” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [coffee-jshint](https://www.npmjs.org/package/coffee-jshint). It will be used with files that have the “coffeescript” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
