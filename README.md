@@ -44,6 +44,7 @@ In addition to the standard SublimeLinter settings, SublimeLinter-contrib-coffee
 
 |Setting|        Description        |Inline Setting|Inline Override|
 |:------|:--------------------------|:------------:|:-------------:|
+|options|JSHint options             |              |    &#10003;   |
 |globals|Variables considered global|              |    &#10003;   |
 
 ## Contributing

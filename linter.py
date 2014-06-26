@@ -22,8 +22,9 @@ class CoffeeJshint(Linter):
     selectors = {}
     word_re = None
     defaults = {
-        "--globals:,": "require,module,window,document,console"
+        "--options:,": "browser,devel,node",
+        "--globals:,": ""
     }
     inline_settings = None
-    inline_overrides = ("globals",)
+    inline_overrides = ("globals", "options")
     comment_re = r"\s*#"
