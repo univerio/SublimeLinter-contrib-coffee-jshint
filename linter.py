@@ -4,9 +4,9 @@ from SublimeLinter.lint import Linter, util
 
 
 class CoffeeJshint(Linter):
-    """
-    Provides an interface to coffee-jshint.
-    """
+
+    """Provides an interface to coffee-jshint."""
+
     syntax = "coffeescript"
     cmd = "coffee-jshint"
     executable = None
