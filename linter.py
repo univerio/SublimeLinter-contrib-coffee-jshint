@@ -1,6 +1,5 @@
 """This module exports the CoffeeJshint plugin class."""
 
-from __future__ import absolute_import, print_function, unicode_literals
 from SublimeLinter.lint import Linter, util
 
 
